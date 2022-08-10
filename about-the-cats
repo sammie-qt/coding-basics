@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>A Website About our Cats</title>
+   </head>
+   <body>
+     <h1>Our Cats</h1>
+     <main>
+        <section>
+          <h2>Photos</h2>
+          <p>Click here to view more <a target="_blank" href="https://imgur.com/a/xjyhdPb">cat photos</a>.</p>
+          <a target="_blank" href="https://imgur.com/a/xjyhdPb"><img src="https://i.imgur.com/N9p2Yd6.jpeg" alt="A tortoiseshell cat looking lovingly into the camera."></a>
+           <figcaption>Blair likes to snuggle up with a blanket and one of her moms. This picture was caught during one of her exceptionally snuggly days.</figcaption>
+        </section>
+        <section>
+           <h2>Things Our Cats Love</h2>
+           <h3>Blair loves:</h3>
+             <ul>
+                <li>Snuggles</li>
+                <li>Catnip</li>
+                <li>Ham</li>
+           </ul>
+           <h3>Crystal loves:</h3>
+           <ul>
+              <li>Naps</li>
+              <li>Drinking water</li>
+              <li>Nose scratches</li>
+           </ul>
+           <h3>Evelyn loves:</h3>
+           <ul>
+              <li>Catnip</li>
+              <li>Jingle ball cat toys</li>
+              <li>Birds</li>
+           </ul>
+           <figure>
+              <img src="https://i.imgur.com/0v1mgGc.jpeg" alt="Crystal, a vanilla-colored cat, curled up on her bed with toe beans showing.">
+              <figcaption>Crystal picked out this bed after a vet visit. She loves it so much she almost never leaves it.</figcaption>
+           </figure>
+        </section>
+        <section>
+           <h2>Things Our Cats Hate</h2>
+           <ul>
+             <li>loud noises</li>
+             <li>spray bottles</li>
+              <li>men</li>
+           </ul>
+           <figure>
+              <img src="https://i.imgur.com/ZT7mDIZ.jpeg" alt="Evelyn, a tuxedo cat, smiling while wearing her harness.">
+              <figcaption>None of the cats <em>like</em> their harnesses until they've worn them for 5 minutes. They <strong>hate</strong> having the harnesses put on. Evelyn smiled while wearing her harness.</figcaption>
+           </figure>
+        </section>
+        <section>
+           <h2>Cat Quiz</h2>
+           <form action="https://sammie-qt.github.io/coding-basics/quiz-results">
+              <fieldset>
+                 <legend>Which cat is your favorite?</legend>
+                 <input id="blair" type="radio" name="favorite" value="blair"> <label for="blair">Blair</label>
+                 <input id="crystal" type="radio" name="favorite" value="crystal"> <label for="crystal">Crystal</label>
+                 <input id="evelyn" type="radio" name="favorite" value="evelyn"> <label for="evelyn">Evelyn</label>
+                 <button type="submit">Submit</button>
+              </fieldset>
+           </form>
+        </section>
+     </main>
+     <footer>
+        <p>
+           Copyright <a href="https://github.com/sammie-qt">sammie-qt</a> on GitHub
+        </p>
+      </footer>
+  </body>
+</html>
