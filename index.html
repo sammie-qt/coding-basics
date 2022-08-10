@@ -34,8 +34,12 @@
         <section>
            <h2>Cat Quiz</h2>
            <form action="https://sammie-qt.github.io/coding-basics/quiz-results">
-              <input type="text" name="catname" placeholder="enter cat name here" required>
-              <button>Submit</button>
+              <fieldset>
+                 <legend>Which cat is your favorite?</legend>
+                 <input id="blair" type="radio" name="favorite" value="blair"> <label for="blair">Blair</label>
+                 <input id="crystal" type="radio" name="favorite" value="crystal"> <label for="crystal">Crystal</label>
+                 <input id="evelyn" type="radio" name="favorite" value="evelyn"> <label for="evelyn">Evelyn</label>
+              </fieldset>
            </form>
         </section>
      </main>
